@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>94d8d17b-a9c6-4b7d-99be-93496fb6501f</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Selenium.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>selenium-clicker.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Python_Selenium</Name>
+    <Name>Selenium-Clicker</Name>
     <RootNamespace>Python_Selenium</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python_Selenium.py" />
+    <Compile Include="selenium-clicker.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

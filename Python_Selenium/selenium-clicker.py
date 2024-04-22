@@ -29,7 +29,7 @@ options.add_argument("--remote-debugging-port=9515")
 # options.add_argument("--no-sandbox")
 
 # Give the user some time to login to Amazon Jobs and deal with pop-ups (in secs)
-time.sleep(60.0)
+time.sleep(90.0)
 
 # Main loop that clicks && reloads
 while (True):
