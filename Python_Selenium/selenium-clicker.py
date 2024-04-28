@@ -49,20 +49,17 @@ while (True):
         button.click()
         
         # Check if the button was clicked
-        # try:    
-            
-        #     # Wait for the new element to appear
-        #     new_element = WebDriverWait(driver, 10).until(Ec.visibility_of_element_located((By.XPATH, "//div[@id='new-element']")))
-        #     print("Button clicked successfully.")
+        try:            
+            # Wait for the new element to appear
+            new_element = WebDriverWait(driver, 10).until(Ec.visibility_of_element_located((By.XPATH, "//div[@id='new-element']")))
+            print("Button clicked successfully.")
         
-        # finally:
-            
-        #     # Button wasn't clicked
-        #     print("Button click failed.")
+        except:
+            # Button wasn't clicked
+            print("New element didn't appear.\n")
     
     # Rinse && repeat
     except Exception as Ex:
-        
          # Print stack trace
         print("\nButton click failed.\nContinuing...\n")
         print(Ex)
